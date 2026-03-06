@@ -128,7 +128,7 @@ importers:
         version: 4.17.16
       '@types/node':
         specifier: ^22.13.5
-        version: 22.19.11
+        version: 22.19.15
       '@types/react':
         specifier: ^19.0.8
         version: 19.1.4
@@ -1192,8 +1192,8 @@ packages:
   '@types/node@18.19.130':
     resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
 
-  '@types/node@22.19.11':
-    resolution: {integrity: sha512-BH7YwL6rA93ReqeQS1c4bsPpcfOmJasG+Fkr6Y59q83f9M1WcBRHR2vM+P9eOisYRcN3ujQoiZY8uk5W+1WL8w==}
+  '@types/node@22.19.15':
+    resolution: {integrity: sha512-F0R/h2+dsy5wJAUe3tAU6oqa2qbWY5TpNfL/RGmo1y38hiyO1w3x2jPtt76wmuaJI4DQnOBu21cNXQ2STIUUWg==}
 
   '@types/prismjs@1.26.5':
     resolution: {integrity: sha512-AUZTa7hQ2KY5L7AmtSiqxlhWxb4ina0yd8hNbl4TWuqnv/pFP0nDMb3YrfSBf4hJVGLh2YEIBfKaBW/9UEl6IQ==}
@@ -3337,8 +3337,8 @@ packages:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
 
-  tar@7.5.9:
-    resolution: {integrity: sha512-BTLcK0xsDh2+PUe9F6c2TlRp4zOOBMTkoQHQIWSIzI0R7KG46uEwq4OPk2W7bZcprBMsuaeFsqwYr7pjh6CuHg==}
+  tar@7.5.10:
+    resolution: {integrity: sha512-8mOPs1//5q/rlkNSPcCegA6hiHJYDmSLEI8aMH/CdSQJNWztHC9WHNam5zdQlfpTwB9Xp7IBEsHfV5LKMJGVAw==}
     engines: {node: '>=18'}
 
   tiny-invariant@1.3.3:
@@ -4314,7 +4314,7 @@ snapshots:
   '@tailwindcss/oxide@4.1.7':
     dependencies:
       detect-libc: 2.1.2
-      tar: 7.5.9
+      tar: 7.5.10
     optionalDependencies:
       '@tailwindcss/oxide-android-arm64': 4.1.7
       '@tailwindcss/oxide-darwin-arm64': 4.1.7
@@ -4400,7 +4400,7 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 22.19.11
+      '@types/node': 22.19.15
       form-data: 4.0.5
     optional: true
 
@@ -4409,7 +4409,7 @@ snapshots:
       undici-types: 5.26.5
     optional: true
 
-  '@types/node@22.19.11':
+  '@types/node@22.19.15':
     dependencies:
       undici-types: 6.21.0
 
@@ -7017,7 +7017,7 @@ snapshots:
 
   tapable@2.2.1: {}
 
-  tar@7.5.9:
+  tar@7.5.10:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
